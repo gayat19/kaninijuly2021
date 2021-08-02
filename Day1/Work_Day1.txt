@@ -1,0 +1,76 @@
+
+RDBMS-> MS SQL
+Dotnet->C#
+HTML,CSS,JavaScript,jQuery
+Web Development-> MVC +Web API
+Angular
+Project
+
+
+SQL Installation
+sa
+G@yathri
+
+Name , Address, Phone
+
+
+Table -> Entity
+Fields -> Attributes
+Attributes -> simple/Single , Multi value, Complex
+Primary Key or Key 
+Complex -> can be split to muliple meaningful attributes(Example - Address-> Door number, Street name, Building name, Area, Zipcode)
+Multi value -> has multiple values but cannt be split meaningfully(Example - skills)
+Entity -> Strong and weak
+Composite Key-> combination of more than one attribute to become the primary key
+
+Table which has a primary key is a strong entity
+
+EF Codd
+1NF-> Primary key, No Multi value attribute
+2NF -> Should in 1NF , no Partial dependency
+3NF -> should be in 2NF , no transitive dependency
+
+U have shop only one shop
+shop has items
+items are supplied by many suppliers
+customers buy items
+one purchase can have many items
+every purchase should have a bill
+every customer can make multiple purchases
+
+Customer->id,name,Address, Phone, email
+Sales-> BillNumber,CustomerID,Date, Total amount
+Items-> ItemId, Name, Price, Quantity, Description
+Inventroy->InvNumber,ItemID, SupplierId, Quantity,UnitPrice, Date
+Item Order->BillNumber, ItemId, QtyPurchased,Price,Discount, tax
+supplier-> Id,Name,Address,Phone
+
+
+Disc Renting online 
+Customer->id,name,Address, Phone, email
+Movie - id, name language, genre , length, description, lead male actor, lead female 
+actor, ratings, yearOf Release
+dics-> id, movie_id, price,type, damage cost, quality, company, IsAvailable
+Rent-> RefNo,Customer_Id, Disc_Id, rent_Date, Exp_Return Date,Actual_Return_Date
+Payment-> RepfNumber, PaymentMOde, Discounts, Extras
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

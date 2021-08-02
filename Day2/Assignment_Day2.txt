@@ -1,0 +1,7 @@
+1) Create the tables from day 1 table structure
+2) Insert records as well
+3) Check and have failed statements as well
+4) Learn drop table and delete statement
+5) dowload and execute the queries from the link
+https://github.com/microsoft/sql-server-samples/blob/master/samples/databases/northwind-pubs/instpubs.sql
+

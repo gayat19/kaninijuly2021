@@ -1,0 +1,37 @@
+Version control system
+  Git + GitHub
+
+To check git version
+  git --version
+
+To create a new local repo
+Open cmd prompt in the folder where teh repo has to be created
+  git init
+
+To add files to repo we have 2 steps
+step1 : stage teh files
+step2 : commit the files
+
+To stage files
+  git add <filename>
+To stage all files
+  git add -A
+
+To check the files 
+  git status
+
+To commit the files
+  git commit -m "<your commit message>"
+
+To connect the local and the remote repos
+  git remote add origin <repositry address>
+example
+  git remote add origin https://github.com/gayat19/J2021Aug2ndCheck.git
+
+To push the files from the local repo to the remote repo 
+  git push origin master
+
+To pull files from the remote repo to the local
+  git pull origin master
+
+
