@@ -1,0 +1,7 @@
+Procedures
+  1) encapsulate the business logic
+  2) reduce complexity for FE programmer
+  3) Improve performance
+Functions
+Transactions
+Triggers

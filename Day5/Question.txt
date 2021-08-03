@@ -1,0 +1,56 @@
+Create the following tables
+Employee(id-identity starts in 100 inc by 1,
+Name,age, phone cannot be null, gender)
+Salary(id-identity starts at 1 increments by 100,
+Basic,HRA,DA,deductions)
+EmployeeSalary(transaction_number int,
+employee_id-reference Employee's Id 
+Salary_id reference Salary Id,
+Date)
+PS - In the emeployee salary table transaction number is the primary key
+the combination of employee_id, salary_id and date should always be unique
+
+
+
+Add a column email-varchar(100) to the employee table
+
+Insert few records in all the tables
+
+Create a procedure which will print the total salary of employee by taking the employee id and the date
+total = Basic+HRA+DA-deductions
+
+Create a procudure which will calculate the average salary of an employee taking his ID
+
+Create a procedure which will catculate tax payable by employee
+Slabs as follows
+total - 100000 - 0%
+100000 > total < 200000 - 5%
+200000 > total < 350000 - 6%
+total > 350000 - 7.5%
+
+
+Use Pubs
+
+1) Create procedure that will take the author first name and last name and print all the books the author sold- (15)
+
+2) Print the Author name, Publisher name and the sale amount for every book(use joins)(5)
+
+
+3) Create a account table
+account number,name, balance, status(open/blocked)(default- open)
+Create a transaction table
+tran_id, from_account,to_account,amount,remarks
+
+Execute the transaction only if the transaction meets the following criterias
+a) Account should have min balance of 1500 after the debit
+b) credit or debit cannot be done to blocked account
+
+Use transaction to achive the same
+debit the from account and credit the to account
+insert to transaction table(30)
+
+4) If a transaction table is updated with status void update the account table by crediting and debiting the debited and credited amount
+PS use trigger(10)
+
+
+
