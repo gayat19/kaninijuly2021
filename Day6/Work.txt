@@ -1,0 +1,23 @@
+https://www.hackerrank.com/challenges/maximum-element/problem
+Started witha  problem
+
+C#
+https://docs.microsoft.com/en-us/dotnet/csharp/
+
+
+PL
+Words     - KeyWords
+Grammer   - Syntax
+
+Statements
+  Sequence
+  Selection
+  Iteration
+Input->Process->Output
+
+Datatypes
+value
+Ref
+Primitive
+
+  

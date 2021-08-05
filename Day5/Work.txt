@@ -3,5 +3,8 @@ Procedures
   2) reduce complexity for FE programmer
   3) Improve performance
 Functions
+  functions are used in select
 Transactions
+  Atomicity
 Triggers
+  Actomatic executing piece of code when you did the action

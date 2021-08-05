@@ -1,0 +1,16 @@
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day6\FirstSimpleConsoleApplication\bin\Debug\net5.0\FirstSimpleConsoleApplication.exe
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day6\FirstSimpleConsoleApplication\bin\Debug\net5.0\FirstSimpleConsoleApplication.deps.json
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day6\FirstSimpleConsoleApplication\bin\Debug\net5.0\FirstSimpleConsoleApplication.runtimeconfig.json
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day6\FirstSimpleConsoleApplication\bin\Debug\net5.0\FirstSimpleConsoleApplication.runtimeconfig.dev.json
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day6\FirstSimpleConsoleApplication\bin\Debug\net5.0\FirstSimpleConsoleApplication.dll
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day6\FirstSimpleConsoleApplication\bin\Debug\net5.0\ref\FirstSimpleConsoleApplication.dll
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day6\FirstSimpleConsoleApplication\bin\Debug\net5.0\FirstSimpleConsoleApplication.pdb
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day6\FirstSimpleConsoleApplication\obj\Debug\net5.0\FirstSimpleConsoleApplication.csprojAssemblyReference.cache
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day6\FirstSimpleConsoleApplication\obj\Debug\net5.0\FirstSimpleConsoleApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day6\FirstSimpleConsoleApplication\obj\Debug\net5.0\FirstSimpleConsoleApplication.AssemblyInfoInputs.cache
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day6\FirstSimpleConsoleApplication\obj\Debug\net5.0\FirstSimpleConsoleApplication.AssemblyInfo.cs
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day6\FirstSimpleConsoleApplication\obj\Debug\net5.0\FirstSimpleConsoleApplication.csproj.CoreCompileInputs.cache
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day6\FirstSimpleConsoleApplication\obj\Debug\net5.0\FirstSimpleConsoleApplication.dll
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day6\FirstSimpleConsoleApplication\obj\Debug\net5.0\ref\FirstSimpleConsoleApplication.dll
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day6\FirstSimpleConsoleApplication\obj\Debug\net5.0\FirstSimpleConsoleApplication.pdb
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day6\FirstSimpleConsoleApplication\obj\Debug\net5.0\FirstSimpleConsoleApplication.genruntimeconfig.cache

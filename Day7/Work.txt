@@ -1,0 +1,9 @@
+1) Create an application that will take numbers 
+from user until the user enters a negative number and finds the average of all teh numbers that are divisible by 7
+
+Class -> blueprint of an object
+Object -> instance of a class
+Arrays
+
+
+Create an application that will take numbers from user unil the user enters a negative number and print all the numbers that are prime.

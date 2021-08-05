@@ -1,0 +1,16 @@
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day7\ArrayApplication\obj\Debug\net5.0\ArrayApplication.csprojAssemblyReference.cache
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day7\ArrayApplication\obj\Debug\net5.0\ArrayApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day7\ArrayApplication\obj\Debug\net5.0\ArrayApplication.AssemblyInfoInputs.cache
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day7\ArrayApplication\obj\Debug\net5.0\ArrayApplication.AssemblyInfo.cs
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day7\ArrayApplication\obj\Debug\net5.0\ArrayApplication.csproj.CoreCompileInputs.cache
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day7\ArrayApplication\bin\Debug\net5.0\ArrayApplication.exe
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day7\ArrayApplication\bin\Debug\net5.0\ArrayApplication.deps.json
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day7\ArrayApplication\bin\Debug\net5.0\ArrayApplication.runtimeconfig.json
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day7\ArrayApplication\bin\Debug\net5.0\ArrayApplication.runtimeconfig.dev.json
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day7\ArrayApplication\bin\Debug\net5.0\ArrayApplication.dll
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day7\ArrayApplication\bin\Debug\net5.0\ref\ArrayApplication.dll
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day7\ArrayApplication\bin\Debug\net5.0\ArrayApplication.pdb
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day7\ArrayApplication\obj\Debug\net5.0\ArrayApplication.dll
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day7\ArrayApplication\obj\Debug\net5.0\ref\ArrayApplication.dll
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day7\ArrayApplication\obj\Debug\net5.0\ArrayApplication.pdb
+D:\Data\d drive\Corp\Kanini\June-21\Participants\Day7\ArrayApplication\obj\Debug\net5.0\ArrayApplication.genruntimeconfig.cache
