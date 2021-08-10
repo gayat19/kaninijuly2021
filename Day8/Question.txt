@@ -1,5 +1,5 @@
 HTML
 
 1) Use only HTML and create your profile page(20 mins)
-2) Please do the pages in teh pic
+2) Please do the pages in the pic
 3) Learn about the form tag
