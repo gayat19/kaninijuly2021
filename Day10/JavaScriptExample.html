@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        .clsSuccess{
+            background-color:lightgreen;
+            color:olive;
+        }
+        .clsError {
+            background-color:lightpink;
+            color: maroon;
+        }
+    </style>
+    <script>
+        //alert("Hello");
+        function buttonClick() {
+            var message = "";
+            var name = document.getElementById("txtName").value;
+            //var gender = document.getElementById("ddlGender").value;
+              //console.log(gender);
+            //if (gender == "Male")
+            //    message = "Hello Mr. " + name 
+            //else
+            //    message = "Hello Miss. " + name
+            var male = document.getElementById("rdbMale");
+            var female = document.getElementById("rdbFemale");
+            if (male.checked == true) {
+                message = "Hello Mr. " + name;
+                console.log(male.value);
+            }
+            else if (female.checked == true)
+                message = "Hello Miss. " + name;
+            else
+                message = "Please select a gender";
+           
+           alert(message);
+        }
+        function nameCheck() {
+            var name = document.getElementById("txtName");
+            //console.log(name);
+            var msg = document.getElementById("divMessage");
+            if (name.value == '') {
+                console.log("Name empty")
+            /*name.style.borderColor = "Red";*/
+                msg.innerHTML = "Name cannot be empry";
+                msg.classList.add("clsError")
+            }
+            else {
+            /* name.style.borderColor = "Green";*/
+                msg.classList.remove("clsError");
+                msg.classList.add("clsSuccess");
+                msg.innerHTML = "Way to go!!!";
+            }
+              
+        }
+    </script>
+</head>
+<body>
+    <!--<select id="ddlGender">
+        <option>Male</option>
+        <option>Female</option>
+    </select>-->
+    <input type="radio" name="grpGender" id="rdbMale" value="Male" />Male
+    <input type="radio" name="grpGender" id="rdbFemale" value="Female" />Female
+    <input type="text" id="txtName" />
+
+    <button onclick='nameCheck()'>Click this</button>
+    <div id="divMessage">
+    </div>
+</body>
+</html>
