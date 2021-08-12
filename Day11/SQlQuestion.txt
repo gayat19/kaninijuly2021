@@ -1,0 +1,11 @@
+1) Create a procuedure that will list all the Product name, Supplier name and the unit price of all the products
+
+2) Print the Order details for all the orders
+Order Id, OrderDate, Product name , unit price, quantity, total price
+
+3) Count the number of orders for every customer
+Create a Stored procedure that will print the customer name and the total order value sum of (unit price*quantity)
+
+4) Count the number of procuts in every category
+
+5) Create a function that will return the Product name and the category name of all teh products suppleied by a given supplier Id( take teh suppler id as parameter) 

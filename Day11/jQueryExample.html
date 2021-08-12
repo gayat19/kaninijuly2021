@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+ 
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        div {
+            height: 200px;
+            width: 200px;
+            background-color: lightblue;
+            margin: 5px;
+        }
+    </style>
+    <script type="text/javascript" src="jQuery.3.11.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#btnCheck").click(function () {
+                //if ($("#txtName").val() == "") {
+                //    alert("Name cannot be empty");
+                //    $("#btnCheck").html("Check Again");
+                //}
+                $(".clsDiv").slideToggle(5000);
+            })
+        })
+    </script>
+</head>
+<body>
+    <input type="text" id="txtName" />
+    <button id="btnCheck">Check</button>
+    <div class="clsDiv">
+        One
+    </div>
+    <div class="clsDiv">
+        Two
+    </div>
+</body>
+</html>

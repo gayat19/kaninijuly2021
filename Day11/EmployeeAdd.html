@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <style>
+        #tblEmplyee{
+            width:600px;
+        }
+        #divNew{
+            width:600px;
+        }
+    </style>
+    <script type="text/javascript" src="jQuery.3.11.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#tblEmplyee").hide();
+            $("#divNew").hide();
+            $("#btnInsert").click(function () {
+                var myRow = "<tr><th scope='row'>"
+                myRow = myRow + $("#txtId").val() + "</th><td>";
+                myRow = myRow + $("#txtName").val() + "</td><td>";
+                myRow = myRow + $("#txtAge").val() + "</td></tr>";
+                console.log(myRow);
+                $("#tblEmpBody").append(myRow);
+            })
+            $("#btnShowAdd").click(function () {
+                $("#tblEmplyee").hide();
+                $("#divNew").show();
+            })
+            $("#btnShowTable").click(function () {
+                $("#tblEmplyee").show();
+                $("#divNew").hide();
+            })
+        });
+    </script>
+</head>
+<body>
+    <div>
+        <button class="btn btn-primary" id="btnShowAdd">Add Employee</button>
+        <button class="btn btn-primary" id="btnShowTable">Show Employee</button>
+    </div>
+    <div id="divNew" class="alert alert-success">
+        <label class="form-control" for="txtId">ID</label>
+        <input class="form-control" type="text" id="txtId" />
+        <label class="form-control" for="txtName">Name</label>
+        <input class="form-control" type="text" id="txtName" />
+        <label  class="form-control" for="txtAge">Age</label>
+        <input class="form-control" type="text" id="txtAge" />
+        <button class="btn btn-success" id="btnInsert">Insert Employee</button>
+    </div>
+    <table class="table" id="tblEmplyee">
+      <thead>
+        <tr>
+          <th scope="col">Id</th>
+          <th scope="col">Name</th>
+          <th scope="col">Age</th>
+        </tr>
+      </thead>
+      <tbody id="tblEmpBody">
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>22</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>31</td>
+        </tr>
+      </tbody>
+</table>
+</body>
+</html>
